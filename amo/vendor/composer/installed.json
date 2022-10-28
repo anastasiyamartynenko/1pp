@@ -1,0 +1,66 @@
+{
+    "packages": [
+        {
+            "name": "andrey-tech/amocrm-api-php",
+            "version": "2.17.1",
+            "version_normalized": "2.17.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andrey-tech/amocrm-api-php.git",
+                "reference": "2b20208d87df31cf24ded138c1ba68de3d11af29"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andrey-tech/amocrm-api-php/zipball/2b20208d87df31cf24ded138c1ba68de3d11af29",
+                "reference": "2b20208d87df31cf24ded138c1ba68de3d11af29",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=7.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^6"
+            },
+            "time": "2022-01-03T07:23:40+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "AmoCRM\\": "src/AmoCRM"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "andrey-tech",
+                    "homepage": "https://github.com/andrey-tech/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Простая обертка для работы с API amoCRM v2 с авторизацией по протоколу oAuth 2.0 или по API-ключу пользователя, троттлингом запросов, блокировкой одновременного обновления одной сущности и логированием запросов/ответов к API в файл",
+            "homepage": "https://github.com/andrey-tech/amocrm-api-php",
+            "keywords": [
+                "amoCRM",
+                "api",
+                "api-wrapper",
+                "crm",
+                "logging",
+                "oauth2",
+                "throttling"
+            ],
+            "support": {
+                "issues": "https://github.com/andrey-tech/amocrm-api-php/issues",
+                "source": "https://github.com/andrey-tech/amocrm-api-php/tree/2.17.1"
+            },
+            "install-path": "../andrey-tech/amocrm-api-php"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

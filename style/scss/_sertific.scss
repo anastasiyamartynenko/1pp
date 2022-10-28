@@ -1,0 +1,111 @@
+.sertificat-page-les {
+    background: #FFCF44!important;
+    padding: 45px 52px;
+    margin-top: 45px;
+}
+.sertificate-title {
+    font-size: 35px;
+    line-height: 43px;
+    padding-bottom: 10px;
+}
+.sertificate-service-subtitle {
+    font-size: 21px;
+    line-height: 26px;
+}
+.services-pic-sertificate {
+    width: 60%;
+}
+.sertificate-text-lf {
+    width: 400px;
+}
+.title-sertificat {
+    text-align: center;
+    font-size: 45px;
+    line-height: 54px;
+    margin-bottom: 65px;;
+}
+.item-serf-cont .item-serf {
+    background-color: #ffff;
+    border-radius: 24px;
+    width: 82px;
+    height: 82px;
+    justify-content: center;
+    font-size: 27px;
+    color: #AAADB2;
+    font-weight: 700;
+    margin: auto;
+}
+.border-item-srf {
+  border-top: 4px solid rgba(190, 190, 182, 0.2);
+  width: 140px;
+  padding-bottom: 55px;
+}
+.text-item-srf {
+    text-align: center;
+    width: 220px;
+}
+.qr-block-text {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 90px;
+}
+.icon-sert-pril {
+    color: #201F1F;
+}
+.icon-sert-pril img {
+    background: rgba(190, 190, 182, 0.2);
+    border-radius: 8px;
+    padding: 10px;
+    vertical-align: middle;
+    margin-right: 18px;
+}
+.pril-ipo-sertf {
+    border-radius: 24px;
+    margin-top: 90px;
+    margin-bottom: 48px;
+    background-image: url(img/pril-jusan-phone.png);
+    height: 600px;
+    position: relative;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.ip-qr-serf {
+    height: 600px;
+}
+.qr-block-serf {
+    margin-right: 44px;
+    margin-left: 0!important;
+}
+.jus-content {
+    justify-content: start!important;
+}
+.social-serf {
+    border-top: none!important;
+}
+.passage-mob {
+    display: none;
+}
+.text-item-srf {
+    padding-top: 18px;
+}
+.passage {
+    display: block;
+}
+@media (max-width: 1024px) {
+    .pril-ipo-sertf {
+      background-position: right -135px bottom 0;  
+    }
+    .qr-block-cont {
+        padding: 0 50px;
+    }
+}
+@media (max-width: 992px) {
+    .item-serf-cont {
+        justify-content: center!important;
+    }
+    .pril-ipo-sertf {
+        background-position: right -300px bottom -20px;
+    }
+
+}

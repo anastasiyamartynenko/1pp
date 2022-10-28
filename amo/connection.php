@@ -1,0 +1,16 @@
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+use AmoCRM\{AmoAPI, AmoAPIException};
+use AmoCRM\TokenStorage\TokenStorageException;
+require_once 'vendor/autoload.php';
+$clientId     = '29761ab7-8d9f-4858-a95b-5f6a8c8063a4';
+$clientSecret = '15pz2CGamSduylBSSPtnIysZxRXiBZNZmp93vy2ZfOWGGU8SRW6hgIvDLdtgQXMz';
+$authCode     = 'def50200934eeb45a25e0db3d432464bb12887b4d61b8f49f43ed222d6fe43eec556925576feb6432d878f5e09adf0837517bfb1a721e3fd5c8ba40f38874f609b1036fc564721843d705605777ca9d43f91a267ea661d9131658fef4e1fbca8328a765aafb2f4a63f27320d72c49e9dabe33813fc269ccb8f2ad7f3cd680dead88f22c98f98d22c7b80b3957ab88866d96e8b99a65bf9628e7a1706ef4a18ecbccaa125e7c94a99a8af0ca7b5dd0259ba21dde8b498d88b8464df1cda6adb7e0ab54ae944a073628502c0557094068261e2e9c5e596376a95762d39bbd780e263e59c59b3c6d25be58570497042854cbfebed120e2ebc882b31c60c77bfbdacc67cfc60f68765782185bdd9c65d7ff16d369e775542651b6d2b3fa818a4e021f4075b6bab1e2ff16edc5378c372802c454a95d25edee7516cab07b2c9cbe9f84663f65d3eb64480ee7b3ac5ceedfbd48db2612055ceb03367fa8ac922faaa7968d7e20454130be391dfb6901f3e44f2af3896e81ec2e23c66921b5fe81baadb9d8b54ee97c599d887cf9dd795385d952d66ae21ef7295986ad88253480f358a5178a823b207fb979f403b24b5aa672177c0c87bf579657bbd229104063c0eea02ceb02809777457853fe77106c75845e1ece89497f18ce90c81a9';
+$redirectUri  = 'https://edu.jusaninvest.kz';
+$subdomain    = 'jysaninvest';
+
+// Первичная авторизация
+AmoAPI::oAuth2($subdomain, $clientId, $clientSecret, $redirectUri, $authCode);
+

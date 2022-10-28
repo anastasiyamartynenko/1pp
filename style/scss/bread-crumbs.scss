@@ -1,0 +1,45 @@
+ .bread-crumbs {
+    display: flex;
+    margin: 0;
+    padding: 0px 0 10px;
+    position: relative;
+}
+
+.bread-crumbs li {
+    color: #7c7c7b;
+    display: block;
+    font-size: 15px;
+    margin-right: 25px;
+    position: relative;
+    text-decoration: none;
+}
+
+.bread-crumbs li:first-letter, .bread-crumbs li a {
+    text-transform: inherit;
+}
+
+.bread-crumbs li::before {
+    background: #bebeb6;
+    border-radius: 50%;
+    content: "";
+    height: 6px;
+    left: -15px;
+    position: absolute;
+    top: 38%;
+    width: 6px;
+}
+
+.bread-crumbs li:first-child::before {
+    content: none;
+}
+
+.bread-crumbs li a {
+    color: #7c7c7b;
+    font-size: 15px;
+    text-decoration: none;
+    transition: all .2s linear;
+}
+
+.bread-crumbs li a:hover {
+    color: #1d1d1b;
+}

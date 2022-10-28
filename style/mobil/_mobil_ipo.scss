@@ -1,0 +1,442 @@
+@media (max-width: 570px) {
+    body {
+        font-size: 15px;
+    }
+    .hideMobile {
+        display: none;
+    }
+    .hideSite {
+        display: block;
+    }
+    .master-class-text {
+        padding: 30px 24px 0 24px;
+    }
+    h1, h2, h3 {
+        font-size: 21px;
+    }
+    .mr-bot {
+        margin-bottom: 40px;
+    }
+    .master-class-mob .master-class {
+        border-radius: 0;
+    }
+    .master-class-mob .master-class-img {
+        text-align: center;
+    }
+    .master-class-img img {
+        width: 100%;
+    }
+    .st-button {
+        color:#fff;
+        background-color: #FF4810;
+        max-width: 100%;
+        width: 100%;
+    }
+    .advantage-ipo .icon {
+        width: 70px;
+        height: 70px;
+    }
+    a:hover.st-button {
+       color: #fff;
+    }
+    .cont-1000 {
+        max-width: 500px;
+    }
+    .advantage-ipo {
+        padding: 30px 20px;
+        margin-top: 48px
+    }
+    .save-button {
+        max-width: 280px;
+        font-size: 13px;
+    }
+    .pril-ipo {
+        height: 300px;
+        position: relative;
+        background-image: url(img/img-pril_phone-mob.png);
+        background-position: right;
+        background-repeat: no-repeat;
+    }
+    .footer-nav-ipo {
+        text-align: center;
+        z-index: 2;
+        position: absolute;
+        width: 320px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .footer-nav-ipo-link {
+        padding: 5px 10px;
+    }
+    .number-ipo {
+        display: none;
+    }
+    .pril-ipo-img {
+        position: absolute;
+        right: -20px;
+        top: 30px;
+        z-index: 1;
+    }
+    .social {
+        display: block;   
+        border: none;
+        padding-top: 0;     
+    }
+    .social-icon-cont {
+        display: block;
+        text-align: center;
+    }
+    .social-icon {
+        display: inline-block
+    }
+    .cont-img-name, .cont-img-phone {
+        border-bottom: 1px solid rgba(190, 190, 182, 0.2);
+        position: relative;
+    }
+    .cont-img-name img, .cont-img-phone img {
+        position: absolute;
+        top: 20px;
+    }
+    .title-intro {
+        font-size: 1.5em;
+    }
+    .flex-none {
+        display: block;
+    }
+    .in-d-img, .in-d-text {
+        width: auto;
+    }
+    .in-d-cont {
+        padding: 0;
+    }
+    .in-d-img {
+        margin-right: 0;
+    }
+    .in-d-img img {
+        border-radius: 24px 24px 0 0;
+        margin-bottom: 0;
+    }
+    .text-img-ip  {
+        padding: 0 27px 0;
+    }
+    .in-d-text {
+        padding: 0 27px 20px;
+    }
+    .intro-card-pic {
+        width: 50%;
+        height: 100%;
+    }
+    .intro-card {
+        padding: 0;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .heigt-intro {
+        height: 60px;
+        padding: 23px;
+    }
+    .intro-wrapper {
+        display: block;
+    }
+    .arrow-next-in {
+        font-size: 14px;
+        width: 180px;
+    }
+    .ip-lesson-header .in-d {
+        font-size: 25px;
+        padding: 30px 10px;
+    }
+    .arrow-more-lesson {
+        width: 43px;
+        height: 43px;
+    }
+    .ip-lesson-text {
+        margin-top: 0;        
+    }
+    .in-d-lesson {
+        padding-top: 20px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .passage-mob {
+        display: block;
+    }
+    .passage {
+        display: none;
+    }
+    .jus-con-around {
+        justify-content: space-around!important;
+    }
+    .item-serf-cont {
+        width: 100%;
+    }
+    .item-serf-li {
+        padding-bottom: 24px;
+    }
+    .title-sertificat {
+        font-size: 21px;
+        line-height: 26px;
+    }
+    .item-serf-cont .item-serf {
+        margin: 0;
+    }
+    .item-serf-li {
+        justify-content: start!important;
+    }
+    .text-item-srf {
+        text-align: left;
+        width: 300px;
+        padding-left: 18px;
+    }
+    .item-serf-cont .item-serf {
+        width: 46px;
+        height: 46px;
+        font-size: 17px;
+        border-radius: 15px;
+    }
+    .item-serf img {
+        width: 24px;
+        height: 24px;
+    }
+    .title-sertificat {
+        margin-bottom: 26px;
+    }
+    .qr-block-serf {
+        display: none;
+    }
+    .qr-block-text {
+        font-size: 19px;
+        line-height: 24px;
+        margin-bottom: 37px;
+    }
+    .txt-amount {
+        font-size: 13px;
+    }
+    .pril-ipo-sertf {
+        background-position: right -90px bottom 0;
+    }
+    .pril-ipo-sertf {
+        background-size: 80%;
+        height: 400px;
+    }
+    .ip-qr-serf {
+        height: 400px;
+    }
+    .icon-sert-pril {
+        font-size: 15px;
+    }
+    .text-item-srf {
+        padding-top: 0;
+    }
+    .pril-ipo-sertf {
+        margin-top: 0;
+    }
+    .pad-none {
+        padding-top: 40px;
+    } 
+    .bread-crumbs li {
+        font-size: 10px;
+    }
+    .bread-crumbs li a {
+        font-size: 10px;
+    }
+    .prev-next-lesson {
+        margin-top: 47px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    .container {
+        max-width: 414px;
+    }
+    .intro-card {
+        height: 300px;
+    }
+    .arrow-more-lesson {
+        width: 33px;
+        height: 33px;
+    }
+    .dictionary-head {
+        padding-left: 20px;
+    }
+    .social-icon-cont {
+        margin-top: 50px;
+    }
+    .social {
+        display: none;
+    }
+}
+@media (max-width: 414px) {
+    .container {
+        max-width: 360px;
+    }
+    .save-button {
+        padding: 15px 15px;
+    }
+    .text-pril-ipo {
+        width: 250px;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    .form {
+        padding-top: 20px;
+    }
+    .in-grey-text {
+        padding-top: 10px;
+        position: inherit;
+    }
+    .intro-card-pic {
+        width: 60%;
+        height: 70%;
+    }
+    .in-service-subtitle {
+        width: 340px;
+    }
+    .services-pic-sertificate {
+        position: absolute!important;
+        width: 100%;
+        height: 240px;
+    }
+    .sertificat-page-les {
+        padding: 45px 32px;
+    }
+    .sertificate-text-lf {
+        width: 300px;
+    }
+    .qr-block-cont {
+        padding: 0 30px;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        max-width: 280px;
+    }
+    .intro-card-pic {
+        width: 100%;
+        height: 80%;
+    }
+    body {
+        font-size: 12px;
+    }
+    .bread-crumbs li {
+        font-size: 10px;
+    }
+    .ip-lesson-header .in-d {
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+    .arrow-more-lesson {
+        width: 23px;
+        height: 20px;
+    }
+    .arrow-more svg {
+        width: 12px;
+        height: 12px;
+    }
+    .prev-next-lesson {
+        margin-top: 37px;
+    }
+    .arrow-next-in {
+        font-size: 10px;
+    }
+    .prev-next-lesson .arrow-more svg {
+        width: 12px;
+        height: 12px;
+    }
+    .prev-next-lesson .arrow-next-in {
+        width: 60px;
+        height: 20px;
+    }
+    .advantage-ipo {
+        margin-top: 38px;
+    }
+    h1, h2, h3 {
+        font-size: 18px;
+    }
+    .ipo-phone {
+        font-size: 12px;
+    }
+    .ipo-button {
+        font-size: 12px;
+    }
+    .text-pril-ipo .fw-bold {
+        font-size: 19px;
+    }
+    .pril-ipo {
+        height: 400px;
+    }
+    .footer-nav-ipo-link {
+        font-size: 12px;
+    }
+    .social-icon-cont {
+        margin-top: 0;
+    }
+    .footer {
+        padding-top: 25px;
+    }
+    .language-icon {
+        font-size: 15px;
+    }
+    .footer-nav-ipo {
+        width: 220px;
+    }
+    .in-d {
+        padding: 20px 0 30px;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+    .mTop {
+        margin-top: 38px;
+    }
+    .service-title-ip {
+        font-size: 19px;
+    }
+    .in-service-subtitle {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .in-service-item-btn {
+        width: 100px;
+        font-size: 12px;
+    }
+    .in-service-item-btn svg {
+        width: 15px;
+        height: 15px;
+    }
+    .intro-card-pic {
+        width: 60%;
+        height: 60%;
+    }
+    .intro-card {
+        height: 260px;
+    }
+    .ip-lesson-text {
+        margin-top: 0;
+    }
+    .sertificate-text-lf {
+        width: 200px;
+    }
+    .sertificate-title {
+        font-size: 21px;;
+    }
+    .sertificate-service-subtitle {
+        font-size: 14px;
+        line-height: 16px;
+    }
+    .sertif-in {
+        height: 220px;
+    }
+    .services-pic-sertificate {
+        height: 180px;
+    }
+    .qr-block-cont {
+        padding: 0 20px;
+    }
+
+}
+@media (max-width: 280px) {
+    .container {
+        max-width: 220px;
+    } 
+}
